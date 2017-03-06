@@ -28,6 +28,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        print("Count :: \(self.items.count)")
+        
         return self.items.count
     }
     
